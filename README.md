@@ -1,21 +1,3 @@
-<p align="center">
-    <a href="https://github.com/yii2tech" target="_blank">
-        <img src="https://avatars2.githubusercontent.com/u/12951949" height="100px">
-    </a>
-    <h1 align="center">ActiveRecord Variation Extension for Yii 2</h1>
-    <br>
-</p>
-
-This extension provides support for ActiveRecord variation via related models.
-In particular it allows implementing i18n feature for ActiveRecord.
-
-For license information check the [LICENSE](LICENSE.md)-file.
-
-[![Latest Stable Version](https://poser.pugx.org/yii2tech/ar-variation/v/stable.png)](https://packagist.org/packages/yii2tech/ar-variation)
-[![Total Downloads](https://poser.pugx.org/yii2tech/ar-variation/downloads.png)](https://packagist.org/packages/yii2tech/ar-variation)
-[![Build Status](https://travis-ci.org/yii2tech/ar-variation.svg?branch=master)](https://travis-ci.org/yii2tech/ar-variation)
-
-
 Installation
 ------------
 
@@ -24,13 +6,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist yii2tech/ar-variation
+composer require dfware/ar-variation
 ```
 
 or add
 
 ```json
-"yii2tech/ar-variation": "*"
+"dfware/ar-variation": "*"
 ```
 
 to the require section of your composer.json.
